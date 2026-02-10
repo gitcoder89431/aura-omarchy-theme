@@ -25,7 +25,7 @@ rsync -a --delete \
   --exclude 'README.md' \
   --exclude 'aura-*.png' \
   --exclude 'extras' \
-  /path/to/aura-omarchy-theme/ ~/.config/omarchy/themes/aura/
+  /path/to/omarchy-aura-theme/ ~/.config/omarchy/themes/aura/
 omarchy-theme-set aura
 ```
 
@@ -33,7 +33,7 @@ Option C: symlink for local development
 
 ```bash
 mkdir -p ~/.config/omarchy/themes
-ln -s /path/to/aura-omarchy-theme ~/.config/omarchy/themes/aura
+ln -s /path/to/omarchy-aura-theme ~/.config/omarchy/themes/aura
 omarchy-theme-set aura
 ```
 
